@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply font-sans text-gray-800 bg-white;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-primary-500/40 hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-accent-600 text-accent-700 font-semibold rounded-full transition-all duration-300 hover:bg-accent-600 hover:text-white;
+  }
+  .btn-accent {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-accent-500 hover:bg-accent-600 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-accent-500/40;
+  }
+  .section-pad {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden;
+  }
+  .glass-card {
+    @apply backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl;
+  }
+  .section-title {
+    @apply text-4xl md:text-5xl font-display font-bold leading-tight;
+  }
+  .section-subtitle {
+    @apply text-lg text-gray-500 mt-4 max-w-2xl;
+  }
+  .tag {
+    @apply inline-block px-3 py-1 text-xs font-semibold uppercase tracking-widest rounded-full;
+  }
+}
+
+/* Swiper custom */
+.swiper-pagination-bullet { @apply bg-primary-400 !important; }
+.swiper-pagination-bullet-active { @apply bg-primary-600 !important; }
+
+/* Admin scrollbar */
+.admin-scroll::-webkit-scrollbar { width: 6px; }
+.admin-scroll::-webkit-scrollbar-track { @apply bg-gray-100; }
+.admin-scroll::-webkit-scrollbar-thumb { @apply bg-gray-300 rounded-full; }
