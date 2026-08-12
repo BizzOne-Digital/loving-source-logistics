@@ -47,13 +47,14 @@ export default function Hero() {
         initial={{ opacity: 0, x: 40 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="hidden lg:block absolute top-0 bottom-0 right-0 w-[48%] overflow-hidden"
+        className="hidden lg:block absolute top-0 bottom-0 right-0 w-[54%] overflow-hidden"
         style={{ borderRadius: '50% 0 0 50% / 55% 0 0 55%' }}
       >
         <img
           src={hero.backgroundImage?.url || '/car-hero.png'}
           alt="Loving Source Logistics delivery van"
           className="w-full h-full object-cover"
+          style={{ objectPosition: '85% center' }}
         />
         <div
           className="absolute inset-y-0 left-0 w-2/5"

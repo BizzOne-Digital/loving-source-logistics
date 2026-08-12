@@ -12,10 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-5">
               <img src="/logo.png" alt="Loving Source Logistics" className="h-10 w-auto object-contain" />
-              <div>
-                <span className="font-display font-bold text-lg block">Loving Source Logistics LLC</span>
-                <span className="text-white/40 text-xs uppercase tracking-widest">Professional Courier Services</span>
-              </div>
+             
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6 max-w-xs">
               Dependable, professional courier and delivery services for healthcare providers, businesses, legal professionals, and automotive companies throughout the Dallas–Fort Worth area.
@@ -64,7 +61,7 @@ export default function Footer() {
             <div className="mt-5 p-4 rounded-xl bg-white/5 border border-white/10">
               <div className="text-xs text-white/40 uppercase tracking-wide mb-1">Business Hours</div>
               <div className="text-white/70 text-sm">Mon–Fri: 8AM – 6PM</div>
-              <div className="text-white/70 text-sm">Sat: 9AM – 3PM</div>
+              <div className="text-white/70 text-sm">Sat: 8AM – 6PM</div>
               <div className="text-accent-400 text-sm font-medium mt-1">On-demand available 24/7</div>
             </div>
           </div>
