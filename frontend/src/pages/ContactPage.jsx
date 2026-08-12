@@ -8,7 +8,7 @@ const contactInfo = [
   { icon: <HiPhone className="w-6 h-6" />, label: 'Phone', value: '1-866-592-3118', href: 'tel:18665923118', color: 'bg-primary-500' },
   { icon: <HiPhone className="w-6 h-6" />, label: 'Direct', value: '682-482-0556', href: 'tel:6824820556', color: 'bg-accent-600' },
   { icon: <HiMail className="w-6 h-6" />, label: 'Email', value: 'info@lovingsourcelogistics.com', href: 'mailto:info@lovingsourcelogistics.com', color: 'bg-blue-500' },
-  { icon: <HiClock className="w-6 h-6" />, label: 'Business Hours', value: 'Mon–Fri: 8AM–6PM | Sat: 8AM–6PM', color: 'bg-accent-500' },
+  { icon: <HiClock className="w-6 h-6" />, label: 'Business Hours', value: 'Mon–Sun: 8AM–6PM', color: 'bg-accent-500' },
   { icon: <HiLocationMarker className="w-6 h-6" />, label: 'Address', value: '17350 State Hwy 249, Suite 220 # 37201, Houston, TX 77064', color: 'bg-purple-500' },
 ];
 

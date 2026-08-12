@@ -60,8 +60,7 @@ export default function Footer() {
             </ul>
             <div className="mt-5 p-4 rounded-xl bg-white/5 border border-white/10">
               <div className="text-xs text-white/40 uppercase tracking-wide mb-1">Business Hours</div>
-              <div className="text-white/70 text-sm">Mon–Fri: 8AM – 6PM</div>
-              <div className="text-white/70 text-sm">Sat: 8AM – 6PM</div>
+              <div className="text-white/70 text-sm">Mon–Sun: 8AM – 6PM</div>
               <div className="text-accent-400 text-sm font-medium mt-1">On-demand available 24/7</div>
             </div>
           </div>
